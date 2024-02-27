@@ -3,7 +3,7 @@ name: Sample Workflow
 on:
   push:
     branches:
-      - main  # Change this to your default branch name if it's different
+      - main  
 
 jobs:
   echo_name_job:
