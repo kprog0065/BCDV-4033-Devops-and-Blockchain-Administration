@@ -12,5 +12,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Show mt name step
+      - name: Show my name step
         run: echo "Kevon"
