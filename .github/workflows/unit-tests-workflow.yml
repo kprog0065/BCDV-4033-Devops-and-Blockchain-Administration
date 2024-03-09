@@ -3,7 +3,7 @@ name: Unit Tests
 on:
   # the 1st condition
   workflow_run:                             # triggers when "build" runs and completes  
-    workflows: ["CI-CD"]
+    workflows: ["Node.js CI"]
     types:
       - completed
 
