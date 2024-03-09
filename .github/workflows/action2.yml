@@ -32,4 +32,6 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: artifacts
-        path: .
+        path: |
+          simpleCalc.js
+          simpleCalc.test.js
