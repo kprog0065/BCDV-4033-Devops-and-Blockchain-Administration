@@ -27,9 +27,6 @@ jobs:
 
     - name: Run Jest tests
       run: npm test
-
-    - name: Build project
-      run: npm run build
       
     - name: Create artifact
       uses: actions/upload-artifact@v2
