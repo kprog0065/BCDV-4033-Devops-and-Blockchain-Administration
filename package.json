@@ -3,6 +3,7 @@
     "description": "This is my first app",
     "scripts": {
       "test": "jest"
+      "build": "./copy-artifacts.sh"
     },
     "dependencies": {
       "jest": "^29.5.0",
