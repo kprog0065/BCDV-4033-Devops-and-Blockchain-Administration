@@ -33,8 +33,3 @@ jobs:
       with:
         name: artifacts
         path: dist
-
-    - name: Copy artifacts
-      run: |
-        mkdir -p artifacts
-        cp *.js artifacts/
