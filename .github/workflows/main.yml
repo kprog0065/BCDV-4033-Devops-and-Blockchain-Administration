@@ -1,0 +1,19 @@
+name: Run Styling Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3 
+    - name: Install dependencies
+      run: npm install 
+    - uses: actions/download-artifact@v3 
+      with:
+        path: dist
+    - name: Run Styling Prettier Pre-commit
+      run: npx prettier --check . 
