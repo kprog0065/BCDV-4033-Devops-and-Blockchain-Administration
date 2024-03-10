@@ -10,5 +10,6 @@ simpleCalc.test.js
 Lab2/one.txt
 README.md
 package.json
+package-lock.json
 simpleCalc.js
 simpleCalc.test.js
