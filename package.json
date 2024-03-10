@@ -4,6 +4,10 @@
     "scripts": {
       "test": "jest",
       "build": "mkdir -p dist && cp simpleCalc.js simpleCalc.test.js dist/"
+      "lint": "npx eslint examples/*.js",
+      "style": "prettier --check examples/example2.js",
+      "format": "prettier --write examples/example2.js",
+      "prepare": "husky install"
     },
     "dependencies": {
       "jest": "^29.5.0",
