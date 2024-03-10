@@ -3,7 +3,7 @@
 
 simpleCalc.js
 simpleCalc.test.js
-.github/workflows/multiple_action.yml
+.github/workflows/multiple-action.yml
 .github/workflows/showname.yml
 .github/workflows/stylecheck.yml
 .github/workflows/unit-tests-workflow.yml
