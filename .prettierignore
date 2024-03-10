@@ -1,0 +1,14 @@
+# Ignore specific files 
+
+
+simpleCalc.js
+simpleCalc.test.js
+.github/workflows/action2.yml
+.github/workflows/name.yml
+.github/workflows/stylecheck.yml
+.github/workflows/unit-tests-workflow.yml
+Lab2/one.txt
+README.md
+package.json
+simpleCalc.js
+simpleCalc.test.js
