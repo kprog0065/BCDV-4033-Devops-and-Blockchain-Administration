@@ -2,24 +2,26 @@
     "name": "my-app",
     "description": "This is my first app",
     "scripts": {
-      "test": "jest",
-      "build": "mkdir -p dist && cp simpleCalc.js simpleCalc.test.js dist/",
-      "lint": "npx eslint examples/*.js",
-      "style": "prettier --check examples/example2.js",
-      "format": "prettier --write examples/example2.js",
-      "prepare": "husky install"
+        "test": "jest",
+        "build": "mkdir -p dist && cp simpleCalc.js simpleCalc.test.js dist/",
+        "lint": "npx eslint examples/*.js",
+        "style": "prettier --check examples/example2.js",
+        "format": "prettier --write examples/example2.js",
+        "prepare": "husky install"
     },
     "dependencies": {
-      "jest": "^29.5.0",
-      "jslint": "^0.12.1",
-      "yarn": "^1.22.19"
+        "jest": "^29.5.0",
+        "jslint": "^0.12.1",
+        "yarn": "^1.22.19"
     },
     "devDependencies": {
-      "eslint": "^8.42.0",
-      "eslint-config-standard": "^17.1.0",
-      "eslint-plugin-import": "^2.27.5",
-      "eslint-plugin-n": "^16.0.0",
-      "eslint-plugin-promise": "^6.1.1"
+        "eslint": "^8.42.0",
+        "eslint-config-standard": "^17.1.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^16.0.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "husky": "^9.0.11"
     }
-  }
+}
+
   
